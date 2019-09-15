@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.dialog.css" />
+<link rel="stylesheet" href="css/index.css" />
+<title>智能出行</title> 
+</head>
+<body>
+<div id="container" style="height: 100%;">
+	<div id="hd">
+    	<div class="hd-wrap ue-clear">
+        	<div class="top-light"></div>
+            <h1 class="logo" id="clickLogo" onclick="clickLogo();"></h1>
+            <!--<div class="login-info ue-clear">-->
+                <!--<div class="welcome ue-clear"><span>欢迎您,</span><a href="javascript:void(0)" class="user-name">Admin</a></div>-->
+                <!--<div class="login-msg ue-clear">-->
+                    <!--<a href="javascript:void(0)" class="msg-txt">消息</a>-->
+                    <!--<a href="javascript:void(0)" class="msg-num">10</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+    <div id="bd" style="height: 100%;">
+    	<div class="wrap ue-clear" style="height: 100%;">
+        	<div class="sidebar">
+            	<h2 class="sidebar-header"><p>Navigator</p></h2>
+                <ul class="nav">
+                	<li class="office current"><div class="nav-header"><a href="1_eid.html" target="right" class="ue-clear"><span>Users</span><i class="icon"></i></a></div></li>
+
+                    <li class="train"><div class="nav-header"><a href="2_car.html" target="right" class="ue-clear"><span>Vehicles</span><i class="icon"></i></a></div></li>
+
+                    <li class="part"><div class="nav-header"><a href="3_coor.html" target="right" class="ue-clear"><span>Contracts</span><i class="icon"></i></a></div></li>
+                </ul>
+
+            </div>
+            <div class="content">
+            	<iframe src="1_eid.html" id="iframe" width="100%" height="100%" frameborder="0" name="right" style="min-width: 1100px"></iframe>
+            </div>
+        </div>
+    </div>
+    <div id="ft" class="foot_div">
+            <em> @ aitos.io</em>
+
+        <div class="ft-right">
+            <span>Automation</span>
+            <em>V1.0&nbsp;2019</em>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/core.js"></script>
+<script type="text/javascript" src="js/jquery.dialog.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script src="js/layer_v2.1/layer/layer.js"></script>
+<script src="js/index_eid.js"></script>
+
+</html>

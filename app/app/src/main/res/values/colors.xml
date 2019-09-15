@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00000000</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#55bbeb</color>
+
+    <color name="half_transparent">#88000000</color>
+    <color name="line_gray">#19000000</color>
+
+    <!-- text color -->
+    <color name="text_white">@color/white</color>
+    <color name="text_black">#333333</color>
+
+
+    <!-- button color -->
+    <color name="bg_blue_btn_stroke_default">#55bbeb</color>
+    <color name="bg_blue_btn_stroke_pressed">#43dfe8</color>
+    <color name="bg_blue_btn_stroke_disabled">#BCBCBC</color>
+    <color name="bg_blue_btn_solid_default">#55bbeb</color>
+    <color name="bg_blue_btn_solid_pressed">#43dfe8</color>
+    <color name="bg_blue_btn_solid_disabled">#BCBCBC</color>
+
+</resources>

@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">CarAppB</string>
+
+    <!-- label -->
+    <string name="label_login_title">汽车分时租赁</string>
+    <string name="label_register">点击注册</string>
+
+    <string name="label_car_brand">汽车品牌：</string>
+    <string name="label_car_model">汽车型号：</string>
+    <string name="label_car_color">车身颜色：</string>
+    <string name="label_car_plate_num">车牌号码：</string>
+
+    <string name="label_temp_car_brand">Karma</string>
+    <string name="label_temp_car_model">Revero GT</string>
+    <string name="label_temp_car_color">红色</string>
+    <string name="label_temp_car_plate_num">沪A88888</string>
+
+    <string name="label_car_status_init">可预订</string>
+    <string name="label_car_status_booked">已预订</string>
+    <string name="label_car_status_using">使用中</string>
+
+    <!-- hint -->
+    <string name="hint_input_user_name">请输入用户名</string>
+    <string name="hint_input_password">请输入密码</string>
+    <string name="hint_input_confirm_password">请输入确认密码</string>
+
+    <!-- tips -->
+    <string name="tips_other_login_way">其它登录方式</string>
+
+    <!-- btn -->
+    <string name="btn_login">登  录</string>
+    <string name="btn_register">注  册</string>
+    <string name="btn_eid_login">一键eID认证登录</string>
+
+    <string name="btn_book_car">一键eID订车</string>
+    <string name="btn_start_car">开始用车</string>
+    <string name="btn_finish_car">结束用车</string>
+
+    <!-- notice -->
+    <string name="notice">提示</string>
+
+    <!-- message -->
+    <string name="msg_eid_auth">正在解析身份信息，请稍候。。。</string>
+    <string name="msg_eid_login">正在解析身份信息和登录，请稍候。。。</string>
+    <string name="msg_eid_reg">正在解析身份信息和注册用户，请稍候。。。</string>
+    <string name="msg_eid_detect_book">正在解析身份信息和预订车辆，请稍候。。。</string>
+    <string name="msg_start_use_car">正在开启用车，请稍候。。。</string>
+    <string name="msg_stop_use_car">正在结束用车，请稍候。。。</string>
+
+    <!-- toast -->
+    <string name="toast_empty_user_name">请输入用户名！</string>
+    <string name="toast_empty_pwd">请输入密码！</string>
+    <string name="toast_empty_confirm_pwd">请输入确认密码！</string>
+    <string name="toast_pwd_not_equel">输入的密码和确认密码不一致！</string>
+
+    <string name="toast_canceled">刷身份证取消！</string>
+    <string name="toast_empty_book_contract">请先预订使用车辆！</string>
+
+    <string name="toast_account_register_fail">注册失败！</string>
+    <string name="toast_account_register_success">注册成功！</string>
+    <string name="toast_account_register_error">注册失败，请检查网络后重试！</string>
+
+    <string name="toast_account_login_fail">登录失败！</string>
+    <string name="toast_account_login_success">登录成功！</string>
+    <string name="toast_account_login_error">登录失败，请检查网络后重试！</string>
+
+    <string name="toast_book_car_success">订车成功！</string>
+    <string name="toast_book_car_fail">订车失败，请稍后重试！</string>
+    <string name="toast_book_car_error">订车失败，请检查网络后重试！</string>
+
+    <string name="toast_start_use_car_success">开启用车成功！</string>
+    <string name="toast_start_use_car_fail">开启用车失败！</string>
+    <string name="toast_start_use_car_error">开启用车失败，请检查网络后重试！</string>
+
+    <string name="toast_stop_use_car_success">结束用车成功！</string>
+    <string name="toast_stop_use_car_fail">结束用车失败！</string>
+    <string name="toast_stop_use_car_error">结束用车失败，请检查网络后重试！</string>
+
+
+</resources>
